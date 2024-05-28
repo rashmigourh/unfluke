@@ -47,17 +47,16 @@
     border: 2px solid white;
 }
 .subHeading{
-    margin: 5rem 3%; 
+    margin: 5rem 5%; 
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
 }
 .row{
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    font-size: 2.7rem;
+    display: flex;
+    font-size: 2.5rem;
     justify-content: space-between;
-    margin: 2rem 2%;
+    margin: 2rem 5%;
     border: 1px solid rgb(184, 182, 182);
     padding: 3rem;
     border-radius: 2rem;
@@ -87,7 +86,7 @@
         font-size: 1.5rem;
     }
     .row{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
