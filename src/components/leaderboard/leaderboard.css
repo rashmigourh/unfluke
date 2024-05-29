@@ -54,7 +54,7 @@
 }
 .row, .rowHeading{
     display: flex;
-    /* font-size: 2rem; */
+    font-size: 2rem;
     justify-content: space-between;
     margin: 2rem 5%;
     border: 1px solid rgb(184, 182, 182);
