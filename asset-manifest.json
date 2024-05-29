@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/unfluke/static/css/main.67bb0da9.css",
+    "main.css": "/unfluke/static/css/main.c979b96b.css",
     "main.js": "/unfluke/static/js/main.8ff17952.js",
     "static/js/453.f8dd5c6e.chunk.js": "/unfluke/static/js/453.f8dd5c6e.chunk.js",
     "static/media/BarGraph.gif": "/unfluke/static/media/BarGraph.09d810ff671a55732f68.gif",
     "static/media/PieChart.gif": "/unfluke/static/media/PieChart.826aed49ec02cb29cf38.gif",
     "index.html": "/unfluke/index.html",
-    "main.67bb0da9.css.map": "/unfluke/static/css/main.67bb0da9.css.map",
+    "main.c979b96b.css.map": "/unfluke/static/css/main.c979b96b.css.map",
     "main.8ff17952.js.map": "/unfluke/static/js/main.8ff17952.js.map",
     "453.f8dd5c6e.chunk.js.map": "/unfluke/static/js/453.f8dd5c6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67bb0da9.css",
+    "static/css/main.c979b96b.css",
     "static/js/main.8ff17952.js"
   ]
 }
