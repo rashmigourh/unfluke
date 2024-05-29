@@ -36,13 +36,13 @@ function Navbar() {
             {/* bottom_container */}
             <div className="navbar">
                 <div className={menuBar ? "nav_links active" : "nav_links"}>
-                    <a href='#home'><SiWindows11 /> LeaderBoard</a>
-                    <a href='#product'>Historical Trading <IoMdArrowDropdown /></a>
-                    <a href='#special'>Historical Chart</a>
-                    <a href='#popular'>Scanners</a>
-                    <a href='services'>Alerts</a>
+                    <a href='#' style={{display:'flex, gap:"1rem'}}><SiWindows11 /> LeaderBoard</a>
+                    <a href='#'>Historical Trading <IoMdArrowDropdown /></a>
+                    <a href='#'>Historical Chart</a>
+                    <a href='#'>Scanners</a>
+                    <a href='#'>Alerts</a>
                     <a>Basic Backtest</a>
-                    <a href='#contact'>Advanced Backtest</a>
+                    <a href='#'>Advanced Backtest</a>
                     <a href="#">Pricing</a>
                     <a href="#">My Earnings</a>
                 </div>
