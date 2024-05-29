@@ -4,7 +4,7 @@ import "../../index.css"
 import IMG1 from "../../assets/BarGraph.gif"
 import IMG2 from "../../assets/PieChart.gif"
 import Dropdown from '../dropdown/Dropdown'
-
+import { MdOutlineTrendingUp } from "react-icons/md";
 
 function LeaderBoard() {
     return (
@@ -36,7 +36,7 @@ function LeaderBoard() {
             </div>
 
             <div className="LeaderScore">
-                <div className="row">
+                <div className="rowHeading">
                     <p>Rank	</p>
                     <p>Name	</p>
                     <p>Calmar Ratio	</p>
@@ -50,7 +50,7 @@ function LeaderBoard() {
                 <div className="row">
                     <p>1</p>
                     <p>Selling with re entr</p>
-                    <p>3.96</p>
+                    <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.96</p>
                     <p className='display-none'>381845</p>
                     <p className='display-none'>319.54</p>
                     <p className='display-none'>0.65</p>
@@ -61,7 +61,7 @@ function LeaderBoard() {
                 <div className="row">
                     <p>2</p>
                     <p>strategy_name</p>
-                    <p>3.62	</p>
+                    <p> <MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.62	</p>
                     <p className='display-none'>268872.5	</p>
                     <p className='display-none'>216.31	</p>
                     <p className='display-none'>0.64	</p>
@@ -72,7 +72,7 @@ function LeaderBoard() {
                 <div className="row">
                     <p>3	</p>
                     <p>Based on premium</p>
-                    <p>3.42	</p>
+                    <p> <MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.42	</p>
                     <p className='display-none'>255425	</p>
                     <p className='display-none'>208.51	</p>
                     <p className='display-none'>0.64	</p>
@@ -84,7 +84,7 @@ function LeaderBoard() {
 
                     <p>4	</p>
                     <p>strategy_name</p>
-                    <p>3.22	</p>
+                    <p> <MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.22	</p>
                     <p className='display-none'>370845	</p>
                     <p className='display-none'>303.47	</p>
                     <p className='display-none'>0.65	</p>
@@ -96,7 +96,7 @@ function LeaderBoard() {
 
                     <p> 5	</p>
                     <p>strategy_name	</p>
-                    <p>3.22	</p>
+                    <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.22	</p>
                     <p className='display-none'>370845	</p>
                     <p className='display-none'>303.47	</p>
                     <p className='display-none'>0.65	</p>
@@ -108,7 +108,7 @@ function LeaderBoard() {
 
                     <p>6	</p>
                     <p>Based on premium</p>
-                    <p>3.01	</p>
+                    <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 3.01	</p>
                     <p className='display-none'>135980	</p>
                     <p className='display-none'>185.77	</p>
                     <p className='display-none'>0.49	</p>
@@ -120,7 +120,7 @@ function LeaderBoard() {
 
                     <p>7	</p>
                     <p>strategy_name	</p>
-                    <p>2.76	</p>
+                    <p> <MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 2.76	</p>
                     <p className='display-none'>267867.5	</p>
                     <p className='display-none'>218.49	</p>
                     <p className='display-none'>0.6	</p>
@@ -132,7 +132,7 @@ function LeaderBoard() {
 
                     <p>8	</p>
                     <p>Wait and trade_Save	</p>
-                    <p>2.62	</p>
+                    <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 2.62	</p>
                     <p className='display-none'>178252.5	</p>
                     <p className='display-none'>161.9	</p>
                     <p className='display-none'>0.63	</p>
@@ -144,7 +144,7 @@ function LeaderBoard() {
                 <div className="row">
                     <p>9	</p>
                     <p>iron condor	</p>
-                    <p>2.44	</p>
+                    <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 2.44	</p>
                     <p className='display-none'>176420	</p>
                     <p className='display-none'>137.51	</p>
                     <p className='display-none'>0.65	</p>
@@ -155,7 +155,7 @@ function LeaderBoard() {
                 <div className="row">
                 <p>10	</p>
                 <p>strategy_name	</p>
-                <p>2.04	</p>
+                <p><MdOutlineTrendingUp style={{color:"green",fontSize:"2.5rem"}}/> 2.04	</p>
                 <p className='display-none'>244555	</p>
                 <p className='display-none'>198.66	</p>
                 <p className='display-none'>0.62	</p>
